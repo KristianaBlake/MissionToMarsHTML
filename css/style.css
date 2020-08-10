@@ -1,8 +1,11 @@
-/* -----index styles start ------ */
+/* -------------- index styles start here ----------- */
+
+/*body background photo*/
 #index {
 	background="mars.jpg";
 }
 
+/*div*/
 .container {
 	position: static;
 	width: 1000px;
@@ -12,6 +15,7 @@
 	margin-right: auto;
 }
 
+/*header*/
 #index-header {
 	position: static;
     width: 900px ;
@@ -28,6 +32,7 @@
     text-emphasis: bold; 
 }
 
+/*nav */ 
 nav {
 	position: static;
 
@@ -67,6 +72,7 @@ nav a:active {color: black;
             background-color: darkgoldenrod; ; 
             font-style: normal; }
 
+/*We need you photo */
 #photo {position: static;
 	width: 450px;
 	height: 730px;
@@ -109,7 +115,7 @@ nav a:active {color: black;
     color: #B02D00; 
 }
 
-p {font-family: Helvetica;
+p.index {font-family: Helvetica;
     font-size: 20px;
     text-align: center; 
     float: right;
@@ -124,4 +130,4 @@ p {font-family: Helvetica;
 	margin: left; 
 }
 
-/* -----index styles end ------ */
+/* --------- index styles end here ----------- */
