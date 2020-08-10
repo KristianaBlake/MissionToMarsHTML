@@ -77,3 +77,24 @@ body, html {
 	padding: 5px;
 }
 
+.nav-links:link {
+	color: darkred;
+}
+
+.nav-links:visited {
+	color: darkred; 
+}
+
+.nav-links: hover {
+	color: darkorange;
+	background-color: black; ;
+	border-radius: 5px;
+	font-size: 30px; 
+}
+
+.nav-links: active {
+	color: black;
+	background-color: darkgoldenrod; ; 
+	font-style: normal; 
+}
+
