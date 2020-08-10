@@ -3,6 +3,18 @@ body, html {
 	margin: 0;
 }
 
+@font-face {font-family: AlienLeauge; 
+    src: url(../fonts/alienleague.ttf); 
+}
+
+ @font-face {font-family: NulShock;
+    src: url(../fonts/nulshock.ttf); 
+}
+
+@font-face {font-family: ASpace; 
+    src: url(../fonts/aspace.ttf); 
+}
+
 #index-background {
 	background-image:url(../images/mars.jpg);
 
@@ -13,5 +25,55 @@ body, html {
 	background-size: cover;
 }
 
+#index-container {
+	position: static;
+    width: 1000px;
+    height: 800px;
+    background-color: black; 
+    margin-left: auto;
+    margin-right: auto;
+}
 
+#index-header {
+	position: static;
+    width: 900px ;
+    height: 100px ; 
+    background-color: black ; 
+
+    font-family: AlienLeague;
+    color: darkred; 
+    text-align: center;  
+    font-size: 75px;
+    letter-spacing: 3px;
+    word-spacing: 5px;
+    padding: 50px;
+    text-emphasis: bold;
+}
+
+#index-nav {
+	position: static;
+            
+    color: darkred; 
+    font-family: NulShock;
+    text-align: center; 
+    font-size: 25px;
+    
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: inherit; 
+    
+    background-color: black;
+}
+
+.nav-links {
+	font-size: 25px;
+	position: static; 
+
+	text-align: left; 
+	text-decoration: none; 
+	font-family: NulShock; 
+	color: darkred; 
+	padding: 5px;
+}
 
