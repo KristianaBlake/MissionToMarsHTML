@@ -72,7 +72,7 @@ nav a:active {color: black;
             background-color: darkgoldenrod; ; 
             font-style: normal; }
 
-/*We need you photo */
+/*id for div */
 #photo {position: static;
 	width: 450px;
 	height: 730px;
@@ -84,6 +84,12 @@ nav a:active {color: black;
 	padding-left: 25px;
 	padding-right: 25px;
 	text-align: left; 
+}
+
+/*id for image tag*/
+#WeNeedYou {display: block;
+    padding-top: 25px;
+    margin: left; 
 }
 
 @font-face {font-family: ASpace; 
@@ -125,9 +131,5 @@ p.index {font-family: Helvetica;
     color: darkred; 
 }
 
-#WeNeedYou {display: block;
-	padding-top: 25px;
-	margin: left; 
-}
 
 /* --------- index styles end here ----------- */
