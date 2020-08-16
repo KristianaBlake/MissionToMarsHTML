@@ -68,7 +68,7 @@ body, html {
     background-color: black;
 }
 
-#index-nav-links {
+.index-nav-links {
 	font-size: 25px;
 	position: static; 
 
@@ -79,22 +79,22 @@ body, html {
 	padding: 5px;
 }
 
-.nav-links:link {
+a:link {
 	color: darkred;
 }
 
-.nav-links:visited {
+a:visited {
 	color: darkred; 
 }
 
-.nav-links: hover {
+a:hover {
 	color: darkorange;
 	background-color: black; ;
 	border-radius: 5px;
 	font-size: 30px; 
 }
 
-.nav-links: active {
+a:active {
 	color: black;
 	background-color: darkgoldenrod; ; 
 	font-style: normal; 
