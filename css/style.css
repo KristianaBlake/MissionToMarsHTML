@@ -100,3 +100,17 @@ a:active {
 	font-style: normal; 
 }
 
+#photo {
+    position: static;
+    width: 450px;
+    height: 730px;
+    background-color: black; 
+    float: left;
+
+    overflow: auto;
+    margin-top: 70px; 
+    padding-left: 25px;
+    padding-right: 25px;
+    text-align: left;
+}
+
