@@ -1,4 +1,4 @@
-body, html {
+#index-body {
 	height: 100%;
 	margin: 0;
 }
@@ -7,7 +7,7 @@ body, html {
     src: url(../fonts/alienleague.ttf); 
 }
 
- @font-face {font-family: NulShock;
+@font-face {font-family: NulShock;
     src: url(../fonts/nulshock.ttf); 
 }
 
@@ -154,4 +154,82 @@ a:active {
     display: block;
     padding-top: 25px;
     margin: left;
+}
+
+#red-planet-body {
+    background-color: black;
+}
+
+#red-planet-container {
+    position: static;
+    width: 1000px;
+    height: 1000px;
+    background-color: black; 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#red-planet-header {
+    position: static;
+    width: 900px ;
+    height: 100px ; 
+    background-color: black ; 
+
+    font-family: AlienLeague;
+    color: #B02D00; 
+    text-align: center;  
+    font-size: 75px;
+    letter-spacing: 3px;
+    word-spacing: 5px;
+    padding: 50px;
+    text-emphasis: bold
+}
+
+#red-planet-photo-container {
+    position: static;
+    width: 450px;
+    height: 950px;
+    float: right;
+
+    overflow: auto;
+    padding-right: 25px;
+    margin-top: 150px;
+}
+
+#red-planet-image {
+    display: block;
+    padding-top: 50px;
+    margin: right;
+}
+
+#red-planet-facts {
+    position: static;
+    width: 450px;
+    height: 950px;
+    background-color: black;
+
+    overflow: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+    text-align: left;
+}
+
+#red-planet-title {
+    font-family: ASpace; 
+    font-size: 30px;
+    text-align: center;
+    float: left; 
+
+    margin-right: 60px;  
+    color: #C83603;
+}
+
+.red-planet-list {
+    font-family: Arial;
+    font-size: 15px;
+    float: left; 
+    color: #C83603;
+    text-align: center; 
+    padding: 50px; 
+    margin-left: 25px;
 }
