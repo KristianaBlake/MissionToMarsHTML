@@ -234,7 +234,7 @@ nav a:active {
     margin-left: 25px;
 }
 
-#life-mars-body {
+#life-body {
 
     background-image:url(../images/marssurface2.jpg);
 
@@ -247,7 +247,7 @@ nav a:active {
     overflow: auto;
 }
 
-#life-mars-container {
+#life-container {
     position: static;
     width: 1000px;
     height: 1500px;
@@ -256,7 +256,7 @@ nav a:active {
     margin-right: auto;
 }
 
-#life-mars-header {
+#life-header {
     position: static;
     width: 900px ;
     height: 100px ; 
