@@ -52,7 +52,7 @@
     text-emphasis: bold;
 }
 
-#index-nav {
+.navigation {
 	position: static;
             
     color: darkred; 
@@ -232,4 +232,33 @@ a:active {
     text-align: center; 
     padding: 50px; 
     margin-left: 25px;
+}
+
+#life-mars-body {
+    background-color: black;
+}
+
+#red-planet-container {
+    position: static;
+    width: 1000px;
+    height: 1500px;
+    background-color: black; 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#life-mars-header {
+    position: static;
+    width: 900px ;
+    height: 100px ; 
+    background-color: black ; 
+
+    font-family: AlienLeague;
+    color: #B02D00; 
+    text-align: center;  
+    font-size: 75px;
+    letter-spacing: 3px;
+    word-spacing: 5px;
+    padding: 50px;
+    text-emphasis: bold;
 }
