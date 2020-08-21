@@ -79,22 +79,22 @@
 	padding: 5px;
 }
 
-a:link {
+nav a:link {
 	color: darkred;
 }
 
-a:visited {
+nav a:visited {
 	color: darkred; 
 }
 
-a:hover {
+nav a:hover {
 	color: darkorange;
 	background-color: black; ;
 	border-radius: 5px;
 	font-size: 30px; 
 }
 
-a:active {
+nav a:active {
 	color: black;
 	background-color: darkgoldenrod; ; 
 	font-style: normal; 
@@ -235,10 +235,19 @@ a:active {
 }
 
 #life-mars-body {
-    background-color: black;
+
+    background-image:url(../images/marssurface2.jpg);
+
+    height: 100%;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: color;
+    overflow: auto;
 }
 
-#red-planet-container {
+#life-mars-container {
     position: static;
     width: 1000px;
     height: 1500px;
@@ -261,4 +270,26 @@ a:active {
     word-spacing: 5px;
     padding: 50px;
     text-emphasis: bold;
+}
+
+.life-mars-image {
+    display: block; 
+    margin: auto; 
+    padding-top: 25px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.life-mars-p {
+    background-color: black;
+    font-family: Helvetica;
+    font-size: 20px;
+    text-align: center; 
+    float: right;
+
+    margin-right: 30px;
+    margin-left: 30px; 
+    margin-top: 60px; 
+    margin-bottom: 5px; 
+    color: darkred;
 }
