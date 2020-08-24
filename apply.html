@@ -9,10 +9,10 @@
     <div id="apply-container">
         <header id="apply-header"> Apply </header>
         
-        <h1> Sign up for your one-way-trip to Mars! </h1>
+        <h1 id="apply-title"> Sign up for your one-way-trip to Mars! </h1>
         
         <form>
-            <table border="0" cellpadding="8" cellspacing="0">
+            <table id="apply-table" border="0" cellpadding="8" cellspacing="0">
                 <tr>
                     <td align="right" valign="top"> First Name: </td>
                     <td> <input type="text" size="20" name="first"> </td>
@@ -23,14 +23,14 @@
                 </tr>
                 <tr>
                     <td align="right" valign="top"> Email Address </td>
-                    <td> <input type="text" size="20" name="last"> </td>
+                    <td> <input class="apply-input" type="text" size="20" name="last"> </td>
                 </tr>
                 <tr>
                     <td align="right"> Gender: </td>
                     <td> 
-                        <input type="radio" name="size" value="small"> Male
+                        <input class="apply-input" type="radio" name="size" value="small"> Male
                         <br> 
-                        <input type="radio" name="size" value="medium"> Female
+                        <input class="apply-input" type="radio" name="size" value="medium"> Female
                         <br>
                    <!--      <input type="radio" name="size" value="large">
                         Gay 
@@ -89,39 +89,39 @@
                 
                 <td align="right" valign="top"> Desired Job: </td>
                 <td> 
-                    <input type="checkbox" name="desiredjobs" value="farmers">
+                    <input class="apply-input" type="checkbox" name="desiredjobs" value="farmers">
                     Farmer
                     <br>
                     
-                    <input type="checkbox" name="desiredjob" value="technician">
+                    <input class="apply-input" type="checkbox" name="desiredjob" value="technician">
                     Technician
                     <br>
                     
-                    <input type="checkbox" name="desiredjob" value="engineer">
+                    <input class="apply-input" type="checkbox" name="desiredjob" value="engineer">
                     Engineer
                     <br>
                     
-                    <input type="checkbox" name="desiredjob" value="physican">
+                    <input class="apply-input" type="checkbox" name="desiredjob" value="physican">
                     Physician
                     <br>
                     
-                    <input type="checkbox" name="desiredjob" value="explorer">
+                    <input class="apply-input" type="checkbox" name="desiredjob" value="explorer">
                     Explorer
                     <br>
                     
-                    <input type="checkbox" name="desiredjob" value="astrobiologist">
+                    <input class="apply-input" type="checkbox" name="desiredjob" value="astrobiologist">
                     Astrobiologist
                     <br>
                     
-                    <input type="checkbox" name="desiredjob" value="spacearchitect">
+                    <input class="apply-input" type="checkbox" name="desiredjob" value="spacearchitect">
                     Space Architect
                     <br>
                     
-                    <input type="checkbox" name="desiredjob" value="interiordesigner">
+                    <input class="apply-input" type="checkbox" name="desiredjob" value="interiordesigner">
                     Interior Designer 
                     <br>
                     
-                    <input type="checkbox" name="desiredjob" value="botanist">
+                    <input class="apply-input" type="checkbox" name="desiredjob" value="botanist">
                     Botanist
                     <br>
                 </td>
@@ -129,34 +129,34 @@
                 <tr>
                     <td align="right"> Age: </td>
                     <td>
-                        <input type="radio" name="age" value="18-20">
+                        <input class="apply-input" type="radio" name="age" value="18-20">
                         18-20
                         <br> 
-                        <input type="radio" name="age" value="21-25">
+                        <input class="apply-input" type="radio" name="age" value="21-25">
                         21-25
                         <br>
-                        <input type="radio" name="age" value="26-30">
+                        <input class="apply-input" type="radio" name="age" value="26-30">
                         26-30
                         <br>
-                        <input type="radio" name="age" value="31-35">
+                        <input class="apply-input" type="radio" name="age" value="31-35">
                         31-35
                         <br>
-                        <input type="radio" name="size" value="36-40">
+                        <input class="apply-input" type="radio" name="size" value="36-40">
                         36-40 
                         <br>
-                        <input type="radio" name="size" value="41-45">
+                        <input class="apply-input" type="radio" name="size" value="41-45">
                         41-45 
                         <br>
-                        <input type="radio" name="size" value="46-50">
+                        <input class="apply-input" type="radio" name="size" value="46-50">
                         46-50 
                         <br>
-                        <input type="radio" name="size" value="51-55">
+                        <input class="apply-input" type="radio" name="size" value="51-55">
                         51-55 
                         <br>
-                        <input type="radio" name="size" value="56-60">
+                        <input class="apply-input" type="radio" name="size" value="56-60">
                         56-60 
                         <br>
-                        <input type="radio" name="size" value="61-70">
+                        <input class="apply-input" type="radio" name="size" value="61-70">
                         61-70 
                         <br>
                     </td>
@@ -164,7 +164,7 @@
         
                 <tr>
                     <td align="right" valign="top"> Why Mars? </td>
-                    <td> <textarea rows="6" cols="20"> </textarea> </td>
+                    <td> <textarea class="apply-text" rows="6" cols="20"> </textarea> </td>
                 </tr>
                 
                 <tr>
@@ -172,13 +172,13 @@
                         <br> you contribute 
                         <br> to Martian Society? 
                     </td>
-                    <td> <textarea rows="6" cols="20"> </textarea> </td>
+                    <td> <textarea class="apply-text" rows="6" cols="20"> </textarea> </td>
                 </tr>
                 <tr>
                     <td colspan="2" align="right">
-                        <input type="reset" value="Reset">
+                        <input class="apply-input" type="reset" value="Reset">
                         &nbsp; &nbsp; &nbsp; 
-                        <input type="submit" value="Apply!">
+                        <input class="apply-input" type="submit" value="Apply!">
                     </td>
                 </tr>
             </table>

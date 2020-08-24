@@ -621,3 +621,31 @@ nav a:active {
     padding: 50px;
     text-emphasis: bold;
 }
+
+#apply-title {
+    font-family: ASpace; 
+    font-size: 25px;
+    text-align: center; 
+    float: center; 
+    margin-right: 25px; 
+    margin-left: 40px;
+    margin-top: 50px; 
+    color: #B02D00;
+}
+
+#apply-table {
+    font-family: Aspace;
+    font-size: 15px;
+    color: darkred; 
+}
+
+.apply-text {
+    text-align: left; 
+    float: left;
+}
+
+.apply-input {
+    background-color: #B02D00; 
+    color: black;
+    font-size: 15px;
+}
