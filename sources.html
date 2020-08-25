@@ -2,79 +2,19 @@
 <html>
 <head>
     <meta charset="utf-8">
-
-    <style> 
-            
-            body {background-color: black; }
-            
-            div#container {position: static;
-                            width: 1000px;
-                            height: 1000px;
-                            background-color: black; 
-                            margin-left: auto;
-                            margin-right: auto; }
-            
-            @font-face {font-family: AlienLeauge; 
-                src: url(alienleague.ttf); }
-            
-            header {position: static;
-                    width: 900px ;
-                    height: 100px ; 
-                    background-color: black ; 
-                
-                    font-family: AlienLeague;
-                    color: #B02D00; 
-                    text-align: center;  
-                    font-size: 75px;
-                    letter-spacing: 3px;
-                    word-spacing: 5px;
-                    padding: 50px;
-                    text-emphasis: bold; }
-            
-        p {font-family: Arial;
-                font-size: 18px;
-                text-align: center; 
-                float: center;
-                
-                margin-right: 15px;
-                margin-left: 15px; 
-                margin-top: 50px; 
-                color: darkred; 
-                }
-        
-            
-        h6 {font-family: Arial;
-                font-size: 18px;
-                text-align: center; 
-                float: center;
-                
-                margin-right: 15px;
-                margin-left: 15px; 
-                margin-top: 50px; 
-                color: darkred; 
-                }
-    
-    </style>
-    
+    <link rel="stylesheet" href="css/style.css" type="text/css">
 </head>
-<body background = "marsplanet.jpg">
+<body id="sources-background">
+    <div id="sources-container"> 
+        <header id="sources-header"> Sources </header>
     
-    <div id="container"> 
-    
-    <header> Sources </header>
-    
-    <p> Pictures and Facts were supplied by: </p>
-    
-       <h6> nasa.gov </h6>
+            <p class="sources-p"> Pictures and Facts were supplied by: </p>
+
+                <h6 class="sources-links"> nasa.gov </h6>
         
+            <p class="sources-p"> Other pictures where taken from: </p>
         
-    <p> Other pictures where taken from: </p>
-        
-        <h6> http://search.creativecommons.org</h6>
-    
-   
-    
+                <h6 class="sources-links"> http://search.creativecommons.org</h6>
     </div>
-     
 </body> 
 </html>
