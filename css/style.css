@@ -156,6 +156,8 @@ nav a:active {
     margin: left;
 }
 
+/*red planet starts bellow */
+
 #red-planet-body {
     background-color: black;
 }
@@ -234,6 +236,10 @@ nav a:active {
     margin-left: 25px;
 }
 
+/*Red Planet ends*/
+
+/*Life on Mars starts */
+
 #life-body {
 
     background-image:url(../images/marssurface2.jpg);
@@ -293,6 +299,10 @@ nav a:active {
     margin-bottom: 5px; 
     color: darkred;
 }
+
+/* Life on Mars ends */ 
+
+/* Work on Mars starts */ 
 
 #work-background {
     background-image:url(../images/marsrocks.jpg);
@@ -390,6 +400,8 @@ nav a:active {
     padding: 10px; 
     margin-right: 25px;
 }
+
+/* Work on Mars ends */
 
 #food-background {
     background-image:url(../images/marscrater.jpg);
