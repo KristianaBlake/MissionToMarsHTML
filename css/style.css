@@ -403,6 +403,8 @@ nav a:active {
 
 /* Work on Mars ends */
 
+/* Food on Mars starts */ 
+
 #food-background {
     background-image:url(../images/marscrater.jpg);
 
@@ -499,6 +501,10 @@ nav a:active {
     padding: 10px; 
     margin-right: 25px;
 }
+
+/* Food on Mars ends */
+
+/*Living on Mars starts*/ 
 
 #living-background {
     background-image:url(../images/marsliving.jpg);
@@ -597,22 +603,26 @@ nav a:active {
     margin-right: 25px;
 }
 
+/* Living on Mars ends */ 
+
+/* Apply to Mars starts */
+
 #apply-background {
     background-image:url(../images/marsplanet.jpg);
 
-    height: 100%;
+    /*height: 100%;*/
 
     background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-repeat: repeat;
+/*    background-size: cover;*/
     background-blend-mode: color;
     overflow: auto;
 }
 
 #apply-container {
     position: static;
-    width: 1000px;
-    height: 1500px;
+    width: 800px;
+    height: 1100px;
     background-color: black; 
     margin-left: auto;
     margin-right: auto;
@@ -620,7 +630,7 @@ nav a:active {
 
 #apply-header {
     position: static;
-    width: 900px ;
+    width: 800px ;
     height: 50px ; 
     background-color: black ; 
 
@@ -648,7 +658,7 @@ nav a:active {
 #apply-table {
     font-family: Aspace;
     font-size: 15px;
-    color: darkred; 
+    color: #B02D00; 
 }
 
 .apply-text {
@@ -661,6 +671,8 @@ nav a:active {
     color: black;
     font-size: 15px;
 }
+
+/* Apply to Mars ends */
 
 #sources-background {
     background-image:url(../images/marsplanet.jpg);
